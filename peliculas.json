@@ -1,0 +1,44 @@
+[
+  {
+    "_id": { "$oid": "67d93adcc0218dc3fefecda0" },
+    "titulo": "Inception",
+    "director": "Christopher Nolan",
+    "año": 2011,
+    "genero": ["Ciencia ficción", "Acción"]
+  },
+  {
+    "_id": { "$oid": "67d93fbcc0218dc3fefecdaf" },
+    "titulo": "The Matrix",
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "año": 1999,
+    "genero": ["Ciencia ficción", "Acción"]
+  },
+  {
+    "_id": { "$oid": "67d93fcec0218dc3fefecdb0" },
+    "titulo": "Interstellar",
+    "director": "Christopher Nolan",
+    "año": 2014,
+    "genero": ["Ciencia ficción", "Drama"]
+  },
+  {
+    "_id": { "$oid": "67d93fd8c0218dc3fefecdb1" },
+    "titulo": "Parasite",
+    "director": "Bong Joon-ho",
+    "año": 2019,
+    "genero": ["Drama", "Suspenso"]
+  },
+  {
+    "_id": { "$oid": "67d93fe5c0218dc3fefecdb2" },
+    "titulo": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "año": 2008,
+    "genero": ["Acción", "Crimen", "Drama"]
+  },
+  {
+    "_id": { "$oid": "67d93ff1c0218dc3fefecdb3" },
+    "titulo": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "año": 1994,
+    "genero": ["Crimen", "Drama"]
+  }
+]
