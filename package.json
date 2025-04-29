@@ -11,6 +11,9 @@
     "predeploy": "npm run build",
 "deploy": "gh-pages -d dist"
   },
+  "config": {
+   "urlPeliculas": "https://canodelacuadra.github.io/buscador-peliculas-react/peliculas.json"
+ },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

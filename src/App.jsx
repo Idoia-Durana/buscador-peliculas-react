@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import pkg from '../package.json';
+
 
 function App() {
   const [peliculas, setPeliculas] = useState([]);
@@ -7,8 +9,8 @@ function App() {
   const [cargando, setCargando] = useState(true);
 
   useEffect(() => {
-    //fetch('https://canodelacuadra.github.io/buscador-peliculas-react/peliculas.json')
-    fetch('./peliculas.json')
+    
+    fetch(pkg.config.urlPeliculas)
 
       .then(response => response.json())
       .then(data => {
