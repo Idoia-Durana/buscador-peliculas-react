@@ -7,7 +7,9 @@ function App() {
   const [cargando, setCargando] = useState(true);
 
   useEffect(() => {
-    fetch('https://canodelacuadra.github.io/buscador-peliculas-react/peliculas.json')
+    //fetch('https://canodelacuadra.github.io/buscador-peliculas-react/peliculas.json')
+    fetch('./peliculas.json')
+
       .then(response => response.json())
       .then(data => {
         setPeliculas(data);
@@ -27,7 +29,7 @@ function App() {
 
   return (
     <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <h1>Buscador de Películas</h1>
+      <h1>Buscador de Películas React</h1>
 
       <input
         type="text"
